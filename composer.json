@@ -1,6 +1,6 @@
 {
     "name": "xiaohigh/pscws4",
-    "description": "一个简单的php分词类文件,方便进行数据库检索",
+    "description": "借助开源免费分词系统pscws4,实现一个简单的php分词类文件,方便进行中文分词",
     "type": "library",
     "licence": "MIT",
     "require": {
@@ -15,6 +15,10 @@
     "autoload": {
     	"psr-4": {
     		"xiaohigh\\Pscws4\\": "./src"
-    	}
+    	},
+    	"files": [
+    		"./src/pscws4.class.php",
+    		"./src/xdb_r.class.php"
+    	]
     }
 }
