@@ -1,0 +1,17 @@
+{
+    "name": "xiaohigh/pscws4",
+    "description": "一个简单的php分词类文件,方便进行数据库检索",
+    "type": "library",
+    "licence": "MIT",
+    "authors": [
+    	{
+    		"name" : "xiaohigh",
+    		"email": "xiaohigh@163.com"
+    	}
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"xiaohigh\\Pscws4": "./src"
+    	}
+    }
+}
